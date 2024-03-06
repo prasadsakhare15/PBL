@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Colleges based on your score</h1>
+    <p>Enter a score:</p>
+    <input type="number" id="scoreInput" placeholder="Enter score">
+    <button id="btn" onclick="show()" >List of applicable colleges</button>
+    <button id="rst" onclick="reset()">Reset</button>
+    <div id="container">
+        <table id="collegelist">
+            <tr>
+                <th>COLLEGE</th>
+                <th>BRANCH</th>
+                <th>CAP 1</th>
+                <th>CAP 2</th>
+                <th>CAP 3</th>
+                <th>Official Site</th>
+
+            </tr>
+            <tr>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
